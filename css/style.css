@@ -1,7 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    display: block;
+}
+
+header{
+    width: 100%;
+    background-color: #129799;
+}
+
+.anv{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.anv ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.anv ul li{
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.beat{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.beat-img{
+    width: 50%;
+}
+
+
+.beat-img img{
+    width: 100%;
+    height: 300px;
+}
+
+.beat h1{
+    font-size: 4rem;
+    color: white;
+    font-weight: 700;
+}
+
+main{
+    background-color: #FFA185;
+    padding-top: 3rem;
+}
+
+.aquarela-text{
+    width: 100%;
+    padding-left: 1.5rem;
+}
+
+.aquarela-text h2{
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 1rem 3.5rem;
+}
+
+.aquarela-text p{
+    font-size: 1.5rem;
+    margin: 0.5rem 3.5rem;
+    font-weight: 700;
+}
+
+.aquarela{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aquarela img{
+    padding: 1rem 1rem 0 1rem;
+    border-radius: 4px;
+}
+
+.more{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    padding: 2rem;
+}
+
+footer{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    background-color: #129799;
+    align-items: center;
+}
+
+.social{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.social img{
+    width: 40px;
+    height: 40px;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+footer .anv{
+    width: 50%;
 }
